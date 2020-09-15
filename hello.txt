@@ -1,0 +1,24 @@
+➜  cse2024 git:(master) git remote add cse2024 https://github.com/leshleekor/cse2024
+➜  cse2024 git:(master) git pull cse2024 master
+fatal: couldn't find remote ref master
+➜  cse2024 git:(master) git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+➜  cse2024 git:(master) touch hello.txt
+➜  cse2024 git:(master) ✗ ls
+hello.txt
+➜  cse2024 git:(master) ✗ git add *
+➜  cse2024 git:(master) ✗ git commit -m "inital commit message"
+[master (root-commit) 01ba3cd] inital commit message
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello.txt
+➜  cse2024 git:(master) git push cse2024  master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 218 bytes | 218.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/leshleekor/cse2024
+ * [new branch]      master -> master
